@@ -1,0 +1,42 @@
+/* Hero */
+.hero img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+  }
+  
+  /* Botón flotante de WhatsApp */
+  .float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366;
+    color: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 24px;
+    z-index: 100;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .float:hover {
+    background-color: #128c7e;
+  }
+  
+  .my-float {
+    margin-top: 8px;
+  }
+  
+  /* Beneficios */
+  .container .row div {
+    margin-bottom: 20px;
+  }
+  
+  .fas, .fab {
+    color: #000;
+  }
+  
+  footer {
+    position: relative;
+  }

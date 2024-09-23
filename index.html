@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - Tienda de Ropa</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Menú de Navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Tienda de Ropa</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero con imagen -->
+  <div class="container-fluid hero">
+    <div class="row">
+      <div class="col-12 p-0">
+        <img src="https://via.placeholder.com/1920x500" class="img-fluid" alt="Propaganda de ropa">
+        <!-- Imagen promocional -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Carrusel de productos destacados -->
+  <div class="container my-5">
+    <h2 class="text-center">Productos Destacados</h2>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card-deck">
+            <div class="card">
+              <img src="https://via.placeholder.com/300" class="card-img-top" alt="Producto 1">
+              <div class="card-body">
+                <h5 class="card-title">Producto 1</h5>
+                <p class="card-text">Descripción breve del producto 1.</p>
+                <a href="https://wa.me/549XXXXXXXXXX" class="btn btn-dark">Comprar en WhatsApp</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://via.placeholder.com/300" class="card-img-top" alt="Producto 2">
+              <div class="card-body">
+                <h5 class="card-title">Producto 2</h5>
+                <p class="card-text">Descripción breve del producto 2.</p>
+                <a href="https://wa.me/549XXXXXXXXXX" class="btn btn-dark">Comprar en WhatsApp</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://via.placeholder.com/300" class="card-img-top" alt="Producto 3">
+              <div class="card-body">
+                <h5 class="card-title">Producto 3</h5>
+                <p class="card-text">Descripción breve del producto 3.</p>
+                <a href="https://wa.me/549XXXXXXXXXX" class="btn btn-dark">Comprar en WhatsApp</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card-deck">
+            <div class="card">
+              <img src="https://via.placeholder.com/300" class="card-img-top" alt="Producto 4">
+              <div class="card-body">
+                <h5 class="card-title">Producto 4</h5>
+                <p class="card-text">Descripción breve del producto 4.</p>
+                <a href="https://wa.me/549XXXXXXXXXX" class="btn btn-dark">Comprar en WhatsApp</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://via.placeholder.com/300" class="card-img-top" alt="Producto 5">
+              <div class="card-body">
+                <h5 class="card-title">Producto 5</h5>
+                <p class="card-text">Descripción breve del producto 5.</p>
+                <a href="https://wa.me/549XXXXXXXXXX" class="btn btn-dark">Comprar en WhatsApp</a>
+              </div>
+            </div>
+            <div class="card">
+              <img src="https://via.placeholder.com/300" class="card-img-top" alt="Producto 6">
+              <div class="card-body">
+                <h5 class="card-title">Producto 6</h5>
+                <p class="card-text">Descripción breve del producto 6.</p>
+                <a href="https://wa.me/549XXXXXXXXXX" class="btn btn-dark">Comprar en WhatsApp</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Sección de beneficios -->
+  <div class="container my-5">
+    <h2 class="text-center">¿Por qué elegirnos?</h2>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <i class="fas fa-dollar-sign fa-3x mb-3"></i>
+        <h5>Mejores precios</h5>
+        <p>Ofrecemos los precios más competitivos del mercado.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="fas fa-truck fa-3x mb-3"></i>
+        <h5>Envío Gratis</h5>
+        <p>Envíos gratis en compras superiores a $1000.</p>
+      </div>
+      <div class="col-md-4">
+        <i class="fas fa-exchange-alt fa-3x mb-3"></i>
+        <h5>Devoluciones fáciles</h5>
+        <p>Proceso de devolución simple y rápido en todos los productos.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+      <p>Síguenos en nuestras redes</p>
+      <a href="https://www.instagram.com/" target="_blank" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/" target="_blank" class="text-white mx-2"><i class="fab fa-tiktok"></i></a>
+      <p class="mt-3">© 2024 Tienda de Ropa. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp -->
+  <a href="https://wa.me/549XXXXXXXXXX" class="float">
+    <i class="fab fa-whatsapp my-float"></i>
+  </a>
+
+  <!-- Bootstrap JS y Font Awesome -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
